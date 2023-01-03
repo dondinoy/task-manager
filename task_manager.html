@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="task_manager.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Keania+One&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Keania+One&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&display=swap');
+  </style>
+  <title>Document</title>
+</head>
+<body onload="add_task()">
+  <header>
+    <h1>Task Manger</h1>
+    <form id="new_Task_Form">
+
+      <input type="text"
+      id="new_Task_Input"
+      placeholder="Enter Task Here"
+      />
+
+      <input type="submit"
+      id="new_Task_Submit"
+      value="Add Task"/>
+
+    </form>
+  </header>
+
+  <main>
+
+    <section class="task_list">
+
+      <h2>Uncompleted Tasks:</h2>
+
+        <div id="tasks">
+
+        <!-- <div class="task">
+            <div class="content">
+              <input type="text"
+              class="text"
+              value="My Task"
+              readonly
+              />
+            </div>
+
+            <div class="actions">
+              <button id="edit">Edit</button>
+              <button id="delete">Delete</button>
+              <button id="Complete">Complete</button>
+            </div>
+
+        </div>
+        <div class="task">
+            <div class="content">
+              <input type="text"
+              class="text"
+              value="My Task"
+              readonly
+              />
+            </div>
+
+            <div class="actions">
+              <button id="edit">Edit</button>
+              <button id="delete">Delete</button>
+              <button id="Complete">Complete</button>
+            </div> -->
+
+        </div>
+      </section>
+
+  </main>
+
+  <script src="task_manager.js">
+  </script>
+</body>
+</html>

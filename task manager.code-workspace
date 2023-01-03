@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../findElementByXXX"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "task manager"
+	}
+}
